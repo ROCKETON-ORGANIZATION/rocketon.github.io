@@ -1,1 +1,23 @@
+site_name: ROCKETON
+site_url: https://rocketon-organization.github.io/rocketon.github.io/
 title: ROCKETON
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - footnotes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://rocketon-organization.github.io/rocketon.github.io/
+  analytics:
+    google: UA-XXXXXXXXX-X
